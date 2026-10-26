@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.17, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/user/apprp/lab4
+plugins: anyio-4.15.1, cov-7.1.0
+collecting ... collected 19 items
+
+test_ects.py::test_hundred_gives_a PASSED                                [  5%]
+test_ects.py::test_boundaries_go_to_higher_range[90-A] PASSED            [ 10%]
+test_ects.py::test_boundaries_go_to_higher_range[89-B] PASSED            [ 15%]
+test_ects.py::test_boundaries_go_to_higher_range[82-B] PASSED            [ 21%]
+test_ects.py::test_boundaries_go_to_higher_range[81-C] PASSED            [ 26%]
+test_ects.py::test_boundaries_go_to_higher_range[74-C] PASSED            [ 31%]
+test_ects.py::test_boundaries_go_to_higher_range[73-D] PASSED            [ 36%]
+test_ects.py::test_boundaries_go_to_higher_range[64-D] PASSED            [ 42%]
+test_ects.py::test_boundaries_go_to_higher_range[63-E] PASSED            [ 47%]
+test_ects.py::test_boundaries_go_to_higher_range[60-E] PASSED            [ 52%]
+test_ects.py::test_boundaries_go_to_higher_range[59-F] PASSED            [ 57%]
+test_ects.py::test_boundaries_go_to_higher_range[0-F] PASSED             [ 63%]
+test_ects.py::test_sixty_is_e_and_fifty_nine_is_f PASSED                 [ 68%]
+test_ects.py::test_fractional_score_between_bounds_falls_to_lower_grade PASSED [ 73%]
+test_ects.py::test_score_out_of_range_is_rejected[-1] PASSED             [ 78%]
+test_ects.py::test_score_out_of_range_is_rejected[101] PASSED            [ 84%]
+test_ects.py::test_non_numeric_score_is_rejected[90] PASSED              [ 89%]
+test_ects.py::test_non_numeric_score_is_rejected[None] PASSED            [ 94%]
+test_ects.py::test_non_numeric_score_is_rejected[True] PASSED            [100%]
+
+============================== 19 passed in 0.04s ==============================
